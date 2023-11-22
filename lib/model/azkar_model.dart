@@ -1,11 +1,13 @@
 class AzkarModel{
-final String text;
+final String title;
+final String audio;
 
-  AzkarModel({required this.text});
+  AzkarModel({required this.title,required this.audio});
 
   factory AzkarModel.fromjson(json){
     return AzkarModel(
-        text: json[0]
+        title: json['TITLE'],
+        audio: json['AUDIO_URL']
     );
   }
 

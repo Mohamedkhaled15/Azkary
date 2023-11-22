@@ -1,7 +1,8 @@
 import 'package:azkary/presentation/view/home_screen/home_view.dart';
+import 'package:azkary/services/azkary_service/azkary_service.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main()async {
   runApp(const MyApp());
 }
 
@@ -13,10 +14,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
      routes: {
-       HomePage.id:(context)=>const HomePage(),
+       HomePage.id:(context)=> HomePage(),
      },
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+      home:  HomePage(),
     );
   }
 }
