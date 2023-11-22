@@ -23,10 +23,12 @@ class HomePage extends StatelessWidget {
             //     style: Styles.style25,
             //   ),
             // ),
-            SizedBox(height: 30,),
+            SizedBox(
+              height: 30,
+            ),
             Center(
               child: Text(
-              '' ,
+                'mmmahmoud',
                 style: Styles.style24,
               ),
             )
