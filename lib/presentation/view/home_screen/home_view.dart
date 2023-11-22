@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
             //     style: Styles.style25,
             //   ),
             // ),
-            Text('Abo 3mo'),
+            Text('Abo 3mo wahed bass'),
             SizedBox(
               height: 30,
 
