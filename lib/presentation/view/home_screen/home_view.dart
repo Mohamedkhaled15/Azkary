@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
             ),
             Center(
               child: Text(
-                'mahhhhhhhhhhhhhhnnnnnnnnnnnnnnnnnnnnnn',
+                'mahmoudali',
                 style: Styles.style24,
               ),
             )
