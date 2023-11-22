@@ -31,6 +31,12 @@ class HomePage extends StatelessWidget {
                 'mmmahmoud',
                 style: Styles.style24,
               ),
+            ),
+            Center(
+              child: Text(
+                'Abokhaled',
+                style: Styles.style24,
+              ),
             )
           ],
         ),
