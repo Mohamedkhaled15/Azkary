@@ -16,8 +16,9 @@ class AzkarListView extends StatelessWidget {
     return Padding(
         padding: EdgeInsets.all(8.0),
         child: ListView.builder(
+          itemCount: azkarModel.length,
             itemBuilder: (context,index){
-              return  ZekrCard(azkarModel: azkarModel[index],);
+              return  ZekrCard(azkarModel: azkarModel[index],currentIndex: index,audioUrl: azkarModel[index].audio,);
             })
     );
   }
