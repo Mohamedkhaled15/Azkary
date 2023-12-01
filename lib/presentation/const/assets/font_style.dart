@@ -45,10 +45,31 @@ abstract class Styles {
   );
 
   static const TextStyle style22 = TextStyle(
-    color: Colors.black,
+    color: Colors.white,
     fontSize: 22,
     fontFamily: 'Amiri',
     fontWeight: FontWeight.w500,
+    height: 0,
+  );
+  static const TextStyle style28 = TextStyle(
+    color: Color(0xffFFFFFF),
+    fontSize: 22,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w700,
+    height: 0,
+  );
+  static const TextStyle style18normal = TextStyle(
+    color: Color(0xffA19CC5),
+    fontSize: 18,
+    fontFamily: 'Amiri',
+    fontWeight: FontWeight.w400,
+    height: 0,
+  );
+  static const TextStyle style24Bold = TextStyle(
+    color: Color(0xffFFFFFF),
+    fontSize: 24,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w700,
     height: 0,
   );
 }
